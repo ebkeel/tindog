@@ -16,6 +16,11 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -50,4 +55,28 @@ h1 {
 .title-img {
   width: 60%;
   transform: rotate(25deg);
+}
+
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+}
+
+.features-col {
+  padding: 5%;
+  text-align: center;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-info {
+  color: #8f8f8f;
 }
