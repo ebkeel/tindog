@@ -6,7 +6,7 @@ body {
 #title {
   background-color: #ff4c68;
   color: white;
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -59,14 +59,18 @@ h3 {
 
 /* Title Image */
 .title-img {
-  width: 60%;
+  width: 18rem;
   transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
 }
 
 
 /* Features Section */
 #features {
+  background-color: white;
   padding: 7% 15%;
+  position: relative;
 }
 
 .features-col {
